@@ -29,8 +29,9 @@ public class Developer {
     @Enumerated(EnumType.STRING)
     private DeveloperLevel developerLevel;
 
-    @Enumerated
+    @Enumerated(EnumType.STRING)
     private DeveloperSkillType developerSkillType;
+
     private Integer experienceYears;
     private String memberId;
     private String name;

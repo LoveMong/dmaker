@@ -1,6 +1,7 @@
 package com.fastcampus.programming.dmaker.controller;
 
-import com.fastcampus.programming.dmaker.DMakerService;
+
+import com.fastcampus.programming.dmaker.service.DMakerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,7 +17,6 @@ import java.util.List;
 @RestController // @Controller +  @ResponseBody(VO객체를 JSON으로 바꿔서 HTTP body에 담는 스프링 어노테이션)
 @RequiredArgsConstructor
 public class DMakerController {
-
 
     private final DMakerService dMakerService;
 

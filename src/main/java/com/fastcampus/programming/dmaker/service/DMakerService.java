@@ -1,4 +1,4 @@
-package com.fastcampus.programming.dmaker;
+package com.fastcampus.programming.dmaker.service;
 
 import com.fastcampus.programming.dmaker.entity.Developer;
 import com.fastcampus.programming.dmaker.repository.DeveloperRepository;
