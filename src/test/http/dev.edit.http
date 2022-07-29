@@ -1,0 +1,9 @@
+
+PUT http://localhost:8080/developers/mong
+Content-Type: application/json
+
+{
+  "developerLevel": "JUNGNIOR",
+  "developerSkillType": "FRONT_END",
+  "experienceYears": 5
+}
